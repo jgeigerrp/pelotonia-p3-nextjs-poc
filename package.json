@@ -1,0 +1,18 @@
+{
+  "name": "pel-nextjs-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NEXT_PUBLIC_EXT_BROWSER=dev_ext_browser EXT_SERVER=dev_ext_server next dev",
+    "build": "cross-env NEXT_PUBLIC_EXT_BROWSER=build_ext_browser EXT_SERVER=build_ext_server next build",
+    "start": "cross-env NEXT_PUBLIC_EXT_BROWSER=start_ext_browser EXT_SERVER=start_ext_server next start"
+  },
+  "dependencies": {
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
